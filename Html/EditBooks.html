@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8"/>
+  <link rel="stylesheet" href="../Css/index.css"/>
+</head>
+
+<body>
+  <br>
+  <h2 style="text-align: center;">Edit Book</h2>
+  <br>
+  <div class="container1">
+  <form method="post" enctype="multipart/form-data">
+  <div class="row">
+    <div class="col-25">
+      <label>Name of Book:</label>
+    </div>
+    <div class="col-75">
+      <input type="hidden" name="id">
+      <input type="text" name="name" >
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label>URL download of Book:</label>
+    </div>
+    <div class="col-75">
+      <input type="text" name="url_download">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label>Image of Book:</label>
+    </div>
+    <div class="col-75">
+      <input type="file" name="image" >
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label>Semester of Book:</label>
+    </div>
+    <div class="col-75">
+      <input type="text" name="semester" >
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label>Year of Book:</label>
+    </div>
+    <div class="col-75">
+      <input type="text" name="year">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label>Description of Book:</label>
+    </div>
+    <div class="col-75">
+      <textarea id="subject" name="description" style="height:200px"></textarea>
+    </div>
+  </div>
+  <div class="row">
+    <input type="submit" name = "submit_btn">
+  </div>
+  </form>
+</div>
+</body>
+</html>
